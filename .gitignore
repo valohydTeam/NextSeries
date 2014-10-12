@@ -5,3 +5,15 @@ NextSeriesV2/project.properties
 NextSeriesV2/.classpath
 NextSeriesV2/.project
 NextSeriesV2/.settings
+NextSeries_old/bin
+NextSeries_old/gen
+NextSeries_old/proguard.cfg
+NextSeries_old/project.properties
+NextSeries_old/.classpath
+NextSeries_old/.project
+NextSeries_old/.settings
+NextSeries_old/.svn
+NextSeries_old/default.properties
+NextSeries_old/lint.xml
+
+

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.valohyd.nextseries"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+     <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Nextseries" >
+        <receiver
+            android:name=".BootReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:label="BootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Widget -->
+        <receiver android:name=".ListWidgetProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget" />
+        </receiver>
+        <receiver android:name=".ListWidgetProvider$PlanningAlarmWidgetProvider" />
+
+        <service
+            android:name=".services.ListWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+        <service
+            android:name=".services.NotificationService"
+            android:enabled="true"
+            android:exported="false"
+            android:label="NotificationService" />
+
+        <activity
+            android:name=".views.activities.StartActivity"
+            android:label="Next Series"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeFragment"
+            android:label="Home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ListWidgetActivity"
+            android:label="ListWidget"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MySeriesFragment"
+            android:label="@string/Tab_my_series"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RechercherFragment"
+            android:label="@string/Tab_search"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".views.activities.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SerieFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RechercherGroup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TotalSerieFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EpisodeFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MySeriesGroup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".views.activities.TestdialogActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".views.activities.InfosSerieActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".views.activities.RechercherSerieActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

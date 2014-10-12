@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/top_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="fill_horizontal"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/top_imageTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|fill_horizontal"
+        android:background="#99484848"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical|center_horizontal"
+        android:shadowColor="#547789"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="0.5"
+        android:singleLine="true"
+        android:textColor="#dededede"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/top_imageDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:background="#99484848"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical|center_horizontal"
+        android:shadowColor="#547789"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="0.5"
+        android:singleLine="true"
+        android:textColor="#dededede"
+        android:textSize="14sp" />
+
+</FrameLayout>

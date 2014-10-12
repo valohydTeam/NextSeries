@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, NextSeriesActivity!</string>
+    <string name="app_name">NextSeries</string>
+    <string name="Tab_my_series">Mes séries</string>
+    <string name="Tab_search">Rechercher</string>
+    <string name="Tab_home">Accueil</string>
+    <string name="URL_API">http://www.thetvdb.com/api/</string>
+    <string name="renderer_recherche_title">titre</string>
+    <string name="renderer_recherche_mess">message</string>
+    <string name="API_KEY">F28A515607A21CA9</string>
+    <string name="LANG_ZIP">/all/fr.zip</string>
+    <string name="URL_FREE">http://valohyd.com/nextseries/</string>
+    <string name="getPlanningThisWeek">getPlanningThisWeek.php?ids=</string>
+    <string name="getPlanningWeeks">getPlanningWeeks.php?ids=</string>
+    <string name="getPlanning">getPlanning.php?ids=</string>
+    <string name="getPlanningByDate">getPlanningByDate.php?ids=</string>
+    <string name="getFavoris">getFavoris.php</string>
+    <string name="message_recherche_plus">-- Afficher plus --</string>
+    <string name="id_afficher_plus">Afficher_plus_resultat</string>
+    <string name="no_favoris">Vous n\'avez pas de favoris</string>
+    <string name="no_ep">Aucun épisode pour cette saison</string>
+
+    <!-- Menu Context Liste serie -->
+    <string name="ajouter_favoris">Ajouter aux favoris</string>
+    <string name="retirer_favoris">Retirer des favoris</string>
+    <!-- Menu -->
+    <string name="menu_display_settings">Paramètres</string>
+    <string name="menu_bylist">Par liste</string>
+
+    <!-- base de données SqLite -->
+    <string name="TABLE_FAVORIS">table_favoris</string>
+    <string name="COL_ID">id</string>
+    <string name="COL_NOM_SERIE">nom_serie</string>
+    <string name="COL_NOTE">note</string>
+    <string name="COL_STATUS">status</string>
+    <string name="COL_BANNER">banner</string>
+    <string name="COL_CHAINE">chaine</string>
+    <string name="COL_NB_EP">nb_ep</string>
+    <string name="BASE_NAME">favoris.db</string>
+    <string name="BASE_VERSION">1</string>
+
+    <!-- settings -->
+    <string name="test1">petit test 1</string>
+    <string name="test2">petit test 2</string>
+    <string name="nb_tops">Nombre de Top</string>
+    <string name="favoris_disp">Type d\'affichage des favoris</string>
+
+    <string name="Next_ep">Prochain Episode</string>
+    <string name="Last_ep">Dernier Episode</string>
+    <string name="exit">Quitter</string>
+    <string name="loading">Veuillez patienter &#8230;</string>
+    <string name="planningEmpty">Aucun épisodes à regarder cette semaine !</string>
+    <string name="rssEmpty">Aucune news chargées !</string>
+    <string name="searchHelp">Voici la fonction recherche.\n\n Tapez ici le nom de la série que vous souhaitez visualiser.</string>
+    <string name="CACHE_DIR">/sdcard/NextSeries/</string>
+    <string name="a_voir_cette_semaine">A voir cette semaine</string>
+    <string name="url_dossier_top">banners/</string>
+
+</resources>

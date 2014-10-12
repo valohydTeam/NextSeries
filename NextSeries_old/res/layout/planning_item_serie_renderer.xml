@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/titrePlanning"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/blue_lightDark"
+    android:gravity="bottom"
+    android:padding="5dp"
+    android:paddingLeft="5dp"
+    android:shadowColor="#484848"
+    android:shadowDx="1"
+    android:shadowDy="3"
+    android:shadowRadius="0.3"
+    android:textColor="#dedede"
+    android:textSize="17dp" />

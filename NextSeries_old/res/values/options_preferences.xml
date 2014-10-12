@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nbTop_str">
+        <item name="5">5 News</item>
+        <item name="10">10 news</item>
+        <item name="100">Toutes</item>
+    </string-array>
+
+    <string-array name="nbTop_values">
+        <item name="5">5</item>
+        <item name="10">10</item>
+        <item name="100">100</item>
+    </string-array>
+    
+    <!-- choix pour les favoris -->
+    <string-array name="favoris_display_str">
+        <item name="liste">Liste</item>
+        <item name="ViewPager">Pages horizontales</item>
+    </string-array>
+    
+    <string-array name="favoris_display_values">
+        <item name="liste">0</item>
+        <item name="ViewPager">1</item>
+    </string-array>
+</resources>

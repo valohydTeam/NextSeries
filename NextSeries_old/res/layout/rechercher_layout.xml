@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/research_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- la liste des series -->
+
+    <ListView
+        android:id="@+id/recherche_liste"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@drawable/my_series_list_divider"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/searchHelp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:shadowColor="#547789"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="0.5"
+        android:text="@string/searchHelp"
+        android:textColor="#dedede"
+        android:textSize="20sp" />
+
+</LinearLayout>

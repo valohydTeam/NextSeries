@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><!-- Si on veut une autre valeur inferieur a 24, on doit changer l'algo -->
+<integer name="refresh_hours_period">24</integer>
+    <integer name="hour_update">0</integer>
+    <integer name="minute_update">20</integer>
+    <integer name="seconds_update">0</integer>
+    <integer name="millis_update">10</integer>
+
+</resources>

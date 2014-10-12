@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="favoris" >
+        <ListPreference
+            android:entries="@array/nbTop_str"
+            android:entryValues="@array/nbTop_values"
+            android:key="nb_tops"
+            android:summary="Defini le nombre de top à afficher sur l&apos;accueil"
+            android:title="@string/nb_tops" />
+        <ListPreference
+            android:entries="@array/favoris_display_str"
+            android:entryValues="@array/favoris_display_values"
+            android:key="@string/favoris_disp"
+            android:summary="Défini le mode d&apos;affichage des séries favorites"
+            android:title="@string/favoris_disp" />
+    </PreferenceCategory>
+</PreferenceScreen>

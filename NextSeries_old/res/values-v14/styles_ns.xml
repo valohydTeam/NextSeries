@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ns" parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+<!--         <item name="android:actionBarItemBackground">@drawable/selectable_background_ns</item>
+        <item name="android:popupMenuStyle">@style/ns_PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/ns_DropDownListView</item>
+        <item name="android:actionBarTabStyle">@style/ns_ActionBarTabStyle</item>
+        <item name="android:actionDropDownStyle">@style/ns_DropDownNav</item>
+        <item name="android:actionBarStyle">@style/ns_solid_ActionBar</item>
+        <item name="android:panelBackground">@drawable/menu_hardkey_panel_ns</item> -->
+    </style>
+
+    <style name="Theme.theTheme" parent="Theme.Sherlock.Light.DarkActionBar"></style>
+ 
+    <style name="Theme.theTheme.NoTitleBar" parent="android:Theme.DeviceDefault.NoActionBar"></style>
+
+    <style name="Theme.theTheme.Fullscreen" parent="android:Theme.DeviceDefault.NoActionBar.Fullscreen"></style>
+
+    <style name="Theme.theThemeDark" parent="android:Theme.DeviceDefault"></style>
+ 
+    <style name="Theme.theThemeDark.NoTitleBar" parent="android:Theme.DeviceDefault.NoActionBar"></style>
+
+    <style name="Theme.theThemeDark.Fullscreen" parent="android:Theme.DeviceDefault.NoActionBar.Fullscreen"></style>
+</resources>

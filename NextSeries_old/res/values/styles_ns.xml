@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ns" parent="@android:style/Theme.Holo">
+        <!--
+             <item name="android:actionBarItemBackground">@drawable/selectable_background_ns</item>
+        <item name="android:popupMenuStyle">@style/ns_PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/ns_DropDownListView</item>
+        <item name="android:actionBarTabStyle">@style/ns_ActionBarTabStyle</item>
+        <item name="android:actionDropDownStyle">@style/ns_DropDownNav</item>
+        <item name="android:actionBarStyle">@style/ns_solid_ActionBar</item>
+        <item name="android:panelBackground">@drawable/menu_hardkey_panel_ns</item>
+        -->
+    </style>
+
+    <style name="Widget">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="Widget.Text">
+        <item name="android:textSize">20dp</item>
+        <item name="android:padding">7dp</item>
+    </style>
+
+    <style name="Theme.theTheme" parent="Theme.Sherlock.Light.DarkActionBar"></style>
+
+    <style name="Theme.theTheme.NoTitleBar" parent="android:Theme.Black.NoTitleBar"></style>
+
+    <style name="Theme.theTheme.Fullscreen" parent="android:Theme.Black.NoTitleBar.Fullscreen"></style>
+
+    <style name="CustomSeekBarHorizontal" parent="android:Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/vignette_bg</item>
+        <item name="android:thumb">@drawable/custom_seek_thumb</item>
+        <item name="android:thumbOffset">0dip</item>
+        <item name="android:minHeight">0px</item>
+        <item name="android:maxHeight">0px</item>
+    </style>
+
+    <style name="EpisodeRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_episode</item>
+        <item name="android:minHeight">20dip</item>
+        <item name="android:maxHeight">20dip</item>
+    </style>
+
+</resources>

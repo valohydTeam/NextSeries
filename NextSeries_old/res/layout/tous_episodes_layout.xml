@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <Gallery
+        android:id="@+id/season_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:scrollX="10px"
+        android:scrollbarFadeDuration="10"
+        android:scrollbars="horizontal"
+        android:spacing="5px" >
+    </Gallery>
+
+    <com.valohyd.nextseries.models.ViewPagerSeasonIndicator
+        android:id="@+id/viewPagerIndicatorTotalSeries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:scrollbarFadeDuration="10"
+        android:scrollbars="horizontal"
+        android:spacing="1dp"
+        android:unselectedAlpha="0.4" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpagerTotalSeries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+</LinearLayout>
